@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "collapse_physics",
+  "version": "${version}",
+  "name": "Collapse Physics",
+  "description": "Blocks that lose their support fall down. Cut a tree trunk and it topples, remove the pillars and the roof comes down.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.example.collapse.CollapseMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
